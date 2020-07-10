@@ -84,6 +84,7 @@ body{
 .development{
     padding: 100px 0;
     background-color: #ffffff;
+    text-align: left;
 }
 .wrapper{
     width: 70%;
@@ -102,6 +103,7 @@ body{
     font-size: 60px;
     font-weight: bold;
     color: #222222;
+    text-align: initial;
 }
 .heading span{
     font-weight: 300;
@@ -111,6 +113,7 @@ p{
     font-weight: 400;
     color: #777777;
     line-height: 24px;
+    text-align: initial;
 }
 .one{
     margin-bottom: 45px;
@@ -134,7 +137,7 @@ p{
 }
 .identity_img img{
     width: 100%;
-    margin-top: 25px;
+    margin-top: 45px;
 }
 .identity .content{
     width: 65%;
@@ -146,6 +149,9 @@ p{
 }
 .identity .content .one{
     margin-bottom: 0;
+}
+.identity .content .tow{
+    padding-bottom: 10%;
 }
 .part{
     width: 47%;
@@ -201,6 +207,10 @@ p{
 }
 .client .review .icon img{
     width: 100%;
+    margin-top: -10px;
+}
+.client .review .icon img:last-child{
+    margin-bottom: 35px;
 }
 .client .review .content{
     width: 50%;
@@ -229,8 +239,14 @@ p{
 .client .two .icon{
     margin-left: 40px;
 }
+.client .container .heading h2{
+    text-align: center;
+}
+.client .container .heading p{
+    text-align: center;
+}
 .company{
-    padding: 60px 0;
+    padding: 30px 0;
 }
 .company_wrapper{
     width: 60%;
@@ -261,9 +277,11 @@ p{
 .team_wrapper .heading h2{
     color: #ffffff;
     margin-top: 35px;
+    text-align: center;
 }
 .team_wrapper .heading p{
     font-size: 22px;
+    text-align: center;
 }
 .team_wrapper .part1{
     width: 27%;
@@ -300,11 +318,18 @@ p{
 .team_wrapper .part1 .logos ul{
     overflow: hidden;
     list-style-type: none;
-    padding-left: 25%;
+    padding-left: 14%;
 }
 .team_wrapper .part1 .logos ul li{
     float: left;
     margin: 10px;
+}
+.team_wrapper .part1 .logos ul li:hover{
+    height: 50px;
+    width: 50px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
 }
 .team .text{
     margin-top: 50px;
@@ -315,4 +340,92 @@ p{
     font-size: 20px;
     color: #ebebeb;
     margin-bottom: 60px;
+    text-align: center;
+}
+.contact{
+    background-color: #7690c5;
+    padding: 60px 0;
+}
+.contact .greetings{
+    width: 40%;
+    float: left;
+}
+.contact .greetings .heading h2{
+    color: #ffffff;
+}
+.contact .greetings .heading p{
+    color: #ffffff;
+}
+.contact .greetings .logos ul{
+    overflow: hidden;
+    margin-bottom: 40px;
+}
+.contact .greetings .logos ul:last-child{
+    margin-bottom: 0;
+}
+.contact .greetings .logos ul li{
+    list-style-type: none;
+    float: left;
+}
+.contact .greetings .logos ul li:last-child{
+    float: right;
+}
+.contact .greetings .logos ul li img{
+    margin-right: 10px;
+    vertical-align: text-bottom;
+}
+.contact .greetings .logos ul li a{
+    font-size: 18px;
+    font-weight: 400;
+    color: #ffffff;
+}
+.contact .form{
+    width: 40%;
+    float: right;
+    margin-left: 50px;
+}
+.contact .form input{
+    width: 94%;
+    margin-bottom: 30px;
+    padding: 15px 10px;
+    display: block;
+    font-family: "Brandon Grotesque";
+    font-size: 16px;
+    font-weight: 500;
+    color: #bbbbbb;
+}
+.contact .form textarea{
+    width: 94%;
+    padding: 15px 10px;
+    display: block;
+    font-family: "Brandon Grotesque";
+    font-size: 16px;
+    font-weight: 500;
+    color: #bbbbbb;
+    border: 0;
+    border-style: hidden;
+}
+.footer_section{
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #7690c5;
+    text-align: center;
+}
+.border{
+    padding:30px 0;
+    border-top: 1px solid #87a0d2;
+}
+#mail{
+    position: relative;
+}
+#pinterest{
+    position: relative;
+    top: 5px;
+    left: 3px;
+}
+#mobile_text{
+    margin-left: 12px;
+}
+#mail_text{
+    margin-right: 15px;
 }
